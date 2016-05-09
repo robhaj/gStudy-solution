@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="gStudy">
+  <head>
+    <meta charset="utf-8">
+    <title>gStudy App!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'></link>
+  </head>
+  <body>
+    <div class='container'>
+    <ng-view></ng-view>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="routes.js"></script>
+    <script src="./components/header/header.directive.js"></script>
+    <script src="./components/my-decks/my-decks.directive.js"></script>
+    <script src="./components/notifications/notifications.directive.js"></script>
+    <script src='./components/sample-questions/sample-questions.directive.js'></script>
+    <script src='./components/single-deck/single-deck.directive.js'></script>
+    <script src='./components/login/login.directive.js'></script>
+    <script src='./components/new-deck/new-deck.directive.js'></script>
+    <script src='./components/register/register.directive.js'></script>
+  </body>
+</html>
